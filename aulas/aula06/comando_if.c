@@ -39,6 +39,13 @@ int main() {
         printf("Sua mençao eh MS.\n");
         } else if  (media >= 5.0f && media <= 6.9f){ 
         printf("Sua mençao eh MM.\n");
+        } else if  (media >= 3.0f && media <= 4.9f){ 
+        printf("Sua mençao eh MI.\n");
+        } else if  (media >= 0.1f && media <= 2.9f){ 
+        printf("Sua mençao eh II.\n");
+        } else {
+            printf("Sua menção eh SR\n");
+        }
 
   return 0;
 }
