@@ -3,19 +3,17 @@
 
 int main()
 
-    char tecla;
-int string[20];
-
 {
+char tecla;
+char string[11];
+
     memset(string, '\0', sizeof(string));
     scanf("%[^\n]s", tecla);
 
     memset(string, tecla, 10);
-    printf("%s\n", string);
-
+   
     memset(string, '*', 5);
-    printf("%s\n", string);
-
+    
     string[5] = '\0';
     printf("%s\n", string);
 
@@ -25,5 +23,5 @@ int string[20];
         printf("\n");
     }
 
-    return = 0;
+    return 0;
 }
